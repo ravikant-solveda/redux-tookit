@@ -5,6 +5,8 @@ nav {
   /* background-color: #282c34; */
   background-color: #154979;
   margin-bottom: 1rem;
+  /* position:fixed; */
+
 }
 
 .nav {
@@ -22,6 +24,6 @@ nav {
   text-decoration: none;
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding: 9px 0;
+  padding: 9px 3px;
   margin: 0 12px;
 }

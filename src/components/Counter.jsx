@@ -8,10 +8,9 @@ const Counter = () => {
     const [count, setCount] = useState('');
 
   return (
-    <div>
+    <div style={{margin: '0 0 13px 0'}}>
         <h1 style={{textAlign:'center'}}>Counter</h1>
         <h1>Persons: {countValue}</h1>
-       
        
             <table style={{border:'1px solid black'}}>
                 <tr>
@@ -27,8 +26,7 @@ const Counter = () => {
                     <td><button onClick={() => dispatch(decrementByAmount(+count))}>Remove *</button></td>
                 </tr> 
             </table>
-    
-       
+
     </div>
   )
 }
